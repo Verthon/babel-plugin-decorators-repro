@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "moduleDetection": "force",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  "verbatimModuleSyntax": true,
+  "exclude": ["**/*.spec.ts", "**/*.spec.tsx"]
+}

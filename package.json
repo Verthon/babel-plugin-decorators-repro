@@ -1,0 +1,23 @@
+{
+	"name": "babel-plugin-decorators-repro",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"main": "index.js",
+	"scripts": {
+		"prebuild": "rm -rf ./dist && npm run type-check",
+		"build": "vite build",
+		"type-check": "tsc --pretty --noEmit"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/plugin-proposal-decorators": "^7.24.1",
+		"@types/node": "^18.19.33",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.11",
+		"vite-plugin-babel": "^1.2.0",
+		"vite-plugin-dts": "^3.9.1",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
